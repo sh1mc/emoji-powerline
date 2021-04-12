@@ -9,12 +9,12 @@
 # [Powerline-patched font](https://gist.github.com/1595572).
 
 ## Set this options in your config.fish (if you want to :])
-# set -g theme_display_user yes
-# set -g theme_hide_hostname yes
-# set -g theme_hide_hostname no
+set -g theme_display_user no
+set -g theme_hide_hostname yes
 # set -g default_user your_normal_user
 
-
+set -g theme_display_date yes
+set -g theme_display_cmd_duration yes
 
 set -g current_bg NONE
 
@@ -26,11 +26,11 @@ set icon_home '🏡'
 
 set prompt_text '→'
 
-set colour_text_path 006272
+set colour_text_path 80E3FB
 set colour_text_dirty 510C38
 set colour_text_clean 2A0095
 
-set colour_path 41C1D7
+set colour_path 0087AF
 set colour_dirty BE4D95
 set colour_clean 7E6FFF
 
